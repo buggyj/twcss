@@ -15,7 +15,7 @@ export TIDDLYWIKI_PLUGIN_PATH="${PWD%/*/*/*}:$TIDDLYWIKI_PLUGIN_PATH"
 node $TW5_ROOT/tiddlywiki.js \
 	./demoedit \
 	--verbose \
-	--server 8080 $:/core/save/all \
+	--server 8082 $:/core/save/all \
 	|| exit 1
 
 
